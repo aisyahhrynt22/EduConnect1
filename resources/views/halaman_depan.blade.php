@@ -217,6 +217,9 @@
         <div class="navbar-end">
 
           <!-- Dropdown -->
+          <a class="navbar-item is-slide" href="https://sip.uai.ac.id/" target="_blank">
+            <b>MGM</b>
+          </a>
           <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
             <div class="navbar-link">
               <b>Pendaftaran</b>
@@ -447,10 +450,10 @@
     
     <!-- Navigation arrows -->
     <button class="Wallop-buttonPrevious is-hidden-mobile" style="background:#4668ab;border-radius: 50%;">
-      <i class="material-icons">arrow_back</i>
+      <i class="material-icons"><-</i>
     </button>
     <button class="Wallop-buttonNext is-hidden-mobile" style="background:#4668ab;border-radius: 50%;">
-      <i class="material-icons">arrow_forward</i>
+      <i class="material-icons">-></i>
     </button>
 
   </div>
