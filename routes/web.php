@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\HalamanUtamaController;
+use App\Http\Controllers\RegistrasiAgenController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//CRUD Halaman Utama
+Route::get('/', [HalamanUtamaController::class, 'index']);
 
-Route::get('/', function () {
-    return view('halaman_utama');
-});
+//CRUD Agen
+Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'index']);

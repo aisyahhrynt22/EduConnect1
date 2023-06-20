@@ -217,7 +217,7 @@
         <div class="navbar-end">
 
           <!-- Dropdown -->
-          <a class="navbar-item is-slide" href="https://sip.uai.ac.id/" target="_blank">
+          <a class="navbar-item is-slide" href="/RegistrasiAgen" target="_blank">
             <b>MGM</b>
           </a>
           <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
