@@ -172,40 +172,7 @@
 				<br clear="all" />
 
 			</div>
-			<!--left-->
-
-			<div class="right">
-				<div class="notification">
-
-										
-
-				</div>
-				<div class="userinfo">
-					<span>0102520053 || Ainut Toriqun Najah</span>
-				</div>
-				<!--userinfo-->
-
-				<div class="userinfodrop">
-					<div class="avatar">
-						<a href="#" id='divFotoAvatar'><img src="https://studentdesk.uai.ac.id/file/images/mhs/0102520053.jpg?r=679176690" width="90" /></a>
-
-					</div>
-					<!--avatar-->
-					<div class="userdata">
-						<h4>Ainut Toriqun Najah</h4><br>
-						<span class="email">0102520053 | Informatika 2020</span>
-						<span class="email"></span>
-						<ul>
-							<li><a href="https://studentdesk.uai.ac.id/biodata/LihatBiodata">Lihat Biodata</a></li>
-							<li><a href="https://studentdesk.uai.ac.id/login/logout">Log Out</a></li>
-						</ul>
-					</div>
-					<!--userdata-->
-				</div>
-				<!--userinfodrop-->
-			</div>
-			<!--right-->
-		</div>
+			<!--left-->	
 		<!--topheader-->
 
 
@@ -214,38 +181,8 @@
 								<li  class="current" ><a href="https://studentdesk.uai.ac.id/"><span class="icon icon-flatscreen"></span>Dashboard</a></li>
 
 				
-				<li><a href='https://studentdesk.uai.ac.id/ijazah'><span class='icon icon-chart'></span>Pengambilan Ijazah</a></li><li><a href='https://studentdesk.uai.ac.id/permintaan/FormulirPermintaan'><span class='icon icon-message'></span>Permintaan Surat</a></li><li><a href='https://studentdesk.uai.ac.id/krs/JadwalKuliahProdi'><span class='icon icon-schedule'></span>Jadwal Kuliah Prodi</a></li><li><a href='https://studentdesk.uai.ac.id/krs/ChatOnline'><span class='icon icon-chat'></span>Chat Online</a></li><li><a href='https://studentdesk.uai.ac.id/baca_quran'><span class='icon icon-quran'></span>Test Baca Al-Quran</a></li><li><a href='https://studentdesk.uai.ac.id/akademik/PusatDownload'><span class='icon icon-download'></span>Pusat Download</a></li><li><a href='https://studentdesk.uai.ac.id/kkn' target='_blank'><span class='icon icon-schedule'></span>KKN</a></li><li><a href='https://studentdesk.uai.ac.id/bimbingan_ta' target='_blank'><span class='icon icon-pencil'></span>BIMBINGAN TA</a></li><li><a href='https://studentdesk.uai.ac.id/mbkm' target='_blank'><span class='icon icon-chart'></span>MBKM</a></li>			</ul>
+			</ul>
 
-			<div class="headerwidget">
-				<div class="earnings">
-
-					<div class="one_fourth alignright">
-						<h4>&Sigma; SKS A/B/C</h4>
-						<h2>112</h2>
-					</div>
-					<!--one_half-->
-
-					<div class="one_fourth last alignright">
-						<h4>IPK<br />&nbsp;</h4>
-						<h2>3.60</h2>
-					</div>
-					<!--one_half-->
-					<div class="one_fourth last alignright">
-						<h4>Nilai UET</h4>
-												<h2><a href='https://studentdesk.uai.ac.id/UAIEnglishTest/nilai' style='color:#F6E4A5;'><u></u></a></h2>
-					</div>
-					<!--one_half last-->
-
-					<div class="one_fourth last alignright">
-						<h4>Nilai Tilawah</h4>
-												<h2><a href='https://studentdesk.uai.ac.id/baca_quran' style='color:#F6E4A5;'><u></u></a></h2>
-					</div>
-					<!--one_half last-->
-
-
-				</div>
-				<!--earnings-->
-			</div>
 			<!--headerwidget-->
 		</div>
 		<!--header-->
@@ -493,11 +430,6 @@
 <div class="pageheader notab">
 	<h1 class="pagetitle">Agen Member Get Member</h1>
 	<span class="pagedesc">Selamat datang Agen Member Get Member</span>
-
-	<a href='https://studentdesk.uai.ac.id/ktm' class="stdbtn btn_red">Pengajuan Cetak KTM</a>
-	<span class="pagedesc"><a href='https://studentdesk.uai.ac.id/jadwal/KehadiranKuliah' class="stdbtn" style='background:#84d384;'>Perkuliahan dimulai 6 maret. Info detail, klik disini</a></span>
-
-	
 </div>
 <!--pageheader-->
 

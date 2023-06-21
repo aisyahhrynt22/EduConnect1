@@ -8,7 +8,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <title>Penerimaan Mahasiswa Baru UAI</title>
-        <link rel="icon" href="https://uai.ac.id/wp-content/uploads/2019/07/Logouai-icon.png" sizes="32x32">
+        <link rel="icon" href="/HalamanAgen" sizes="32x32">
 	    <!-- <link href="https://penerimaan.uai.ac.id/file/template/limitless/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
 
 
