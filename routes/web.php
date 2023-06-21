@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('halaman_utama');
 });
+
+Route::get('/home_agen', function () {
+    return view('halaman_utama_agen');
+});
+
+Route::get('/agen', function () {
+    return view('profil_agen');
+});
+
