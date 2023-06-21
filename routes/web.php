@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\HalamanUtamaController;
 use App\Http\Controllers\RegistrasiAgenController;
+use App\Http\Controllers\LoginCalonMhsController;
+use App\Http\Controllers\LoginAgenController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -19,4 +21,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HalamanUtamaController::class, 'index']);
 
 //CRUD Agen
-Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'index']);
+Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'reg']); //belum ada tampilan, cek di reg agen
+Route::get('/LoginAgen', [LoginAgenController::class, 'log']); //belum ada tampilan, cek di log agen
+
+//CRUD Calon Mhs
+Route::get('/LoginMhs', [LoginCalonMhsController::class, 'log']); 

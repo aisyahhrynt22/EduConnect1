@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class RegistrasiAgenController extends Controller
 {
-    public function index(){
-        return view("Registrasi_Agen.index");
+    public function reg(){
+        return view("Agen.reg");
     }
 }

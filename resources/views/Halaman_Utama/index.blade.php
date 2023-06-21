@@ -217,7 +217,7 @@
         <div class="navbar-end">
 
           <!-- Dropdown -->
-          <a class="navbar-item is-slide" href="/RegistrasiAgen" target="_blank">
+          <a class="navbar-item is-slide" href="/LoginAgen" target="_blank">
             <b>MGM</b>
           </a>
           <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
@@ -311,7 +311,7 @@
 
           <!-- Signup button -->
           <div class=" navbar-item is-button is-centered-tablet">
-                          <a id="#signup-btn" href="https://penerimaan.uai.ac.id/login" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
+                          <a id="#signup-btn" href="/LoginMhs" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
                 <b>Login</b>
               </a>
               <div class="linkdaftar">
