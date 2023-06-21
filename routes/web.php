@@ -1,6 +1,11 @@
 <?php
 
+use App\Http\Controllers\HalamanUtamaController;
+use App\Http\Controllers\RegistrasiAgenController;
+use App\Http\Controllers\LoginCalonMhsController;
+use App\Http\Controllers\LoginAgenController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,16 +17,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//CRUD Halaman Utama
+Route::get('/', [HalamanUtamaController::class, 'index']);
 
-Route::get('/', function () {
-    return view('halaman_utama');
-});
+//CRUD Agen
+Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'reg']); //belum ada tampilan, cek di reg agen
+Route::get('/LoginAgen', [LoginAgenController::class, 'log']); //belum ada tampilan, cek di log agen
 
-Route::get('/home_agen', function () {
-    return view('halaman_utama_agen');
-});
-
-Route::get('/agen', function () {
-    return view('profil_agen');
-});
-
+//CRUD Calon Mhs
+Route::get('/LoginMhs', [LoginCalonMhsController::class, 'log']); 
