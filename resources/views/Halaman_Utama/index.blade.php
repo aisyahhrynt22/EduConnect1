@@ -220,94 +220,15 @@
           <a class="navbar-item is-slide" href="/LoginAgen" target="_blank">
             <b>MGM</b>
           </a>
-          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
-            <div class="navbar-link">
-              <b>Pendaftaran</b>
-            </div>
-            <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
-              <div class="mega-inner">
-                <div class="container">
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/registrasiS1">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Daftar S1 Kelas Reguler</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/registrasiKelasKaryawan">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Daftar S1 Kelas Karyawan</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/AlihJenjang">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Daftar S1 Kelas Alih Jenjang D3</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/registrasiS2">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Daftar S2 Kelas Magister</small>
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+
+          <a class="navbar-item is-slide" href="/LoginMhs" target="_blank">
+            <b>Pendaftaran</b>
+          </a>
 
           <!-- Dropdown -->
-          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
-            <div class="navbar-link">
-              <b>Program Kuliah</b>
-            </div>
-            <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
-              <div class="mega-inner">
-                <div class="container">
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/programS1">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Program S1 Kelas Reguler</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/KelasKaryawan">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Program S1 Kelas Karyawan</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/KelasAlihJenjangD3">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Program S1 Kelas Alih Jenjang D3</small>
-                      </p>
-                    </div>
-                  </a>
-                  <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/programS2">
-                    <i class="im im-icon-Student-MaleFemale"></i>
-                    <div class="navbar-content">
-                      <p>
-                        <small class="color-primary">Program S2 Kelas Magister</small>
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <a class="navbar-item is-slide" href="/" target="_blank">
+            <b>Program Kuliah</b>
+          </a>
 
           <!-- Signup button -->
           <div class=" navbar-item is-button is-centered-tablet">
@@ -661,36 +582,7 @@
     </div>
   </div>
 </div>
-    <div id="style-switcher" class="style-switcher visible">
-      <!--Social Media-->
-      
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://www.facebook.com/Daftar.UAI?_rdc=1&_rdr"><i class="fab fa-facebook fa-2x"></i></a>
-        </p>
-        <hr>
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://twitter.com/YukDaftarUAI"><i class="fab fa-twitter fa-2x"></i></a>
-        </p>
-        <hr>
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://instagram.com/daftaruai?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram fa-2x"></i></a>
-        </p>
-        <hr>
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://www.youtube.com/channel/UCvLfMFYxIeppJsf2Zggh5Pw"><i class="fab fa-youtube fa-2x"></i></a>
-        </p>
-        <hr>
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://wa.me/6281294275930"><i class="fab fa-whatsapp fa-2x"></i></a>
-        </p>
-        <hr>
-              <p class="level-item has-text-centered">
-          <a class="link is-info" href="https://www.tiktok.com/@daftaruai?lang=id-ID"><i class="fab fa-tiktok fa-2x"></i></a>
-        </p>
-        <hr>
-      
-      
-    </div>
+
 
     <!-- Footer -->
     <footer class="footer-light-medium">
@@ -770,8 +662,6 @@
         </div>
       </div>
     </footer>
-    <!-- Back To Top Button -->
-    <div id="backtotop" class="is-blue"><a href="#"></a></div>
 
     <script src="https://penerimaan.uai.ac.id/file/template/bulkit/js/app.js"></script>
     <script src="https://penerimaan.uai.ac.id/file/template/bulkit/js/core.js"></script>
