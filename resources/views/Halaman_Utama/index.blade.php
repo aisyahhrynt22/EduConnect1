@@ -221,7 +221,7 @@
             <b>MGM</b>
           </a>
 
-          <a class="navbar-item is-slide" href="/LoginMhs" target="_blank">
+          <a class="navbar-item is-slide" href="/RegistrasiMhs" target="_blank">
             <b>Pendaftaran</b>
           </a>
 

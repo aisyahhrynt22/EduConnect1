@@ -5,6 +5,7 @@ use App\Http\Controllers\RegistrasiAgenController;
 use App\Http\Controllers\LoginCalonMhsController;
 use App\Http\Controllers\LoginAgenController;
 use App\Http\Controllers\HalamanAgenController;
+use App\Http\Controllers\RegisterCalonMhsController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -28,4 +29,5 @@ Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
 
 
 //CRUD Calon Mhs
-Route::get('/LoginMhs', [LoginCalonMhsController::class, 'log']); 
+Route::get('/LoginMhs', [LoginCalonMhsController::class, 'log']);
+Route::get('/RegistrasiMhs', [RegisterCalonMhsController::class, 'reg']);
