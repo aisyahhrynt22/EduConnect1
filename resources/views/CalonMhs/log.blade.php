@@ -154,7 +154,7 @@
                                     <i class="im im-icon-Lock-3"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Lupa password silahkan, <a href="https://penerimaan.uai.ac.id/login/lupa_password" style="color: black;">Klik disini</a>
+                                    Lupa password silahkan, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
                             <!-- Icon block -->
@@ -163,7 +163,7 @@
                                     <i class="im im-icon-Add-User"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Belum punya akun silahkan pilih pendaftaran, <a href="https://penerimaan.uai.ac.id/" style="color: black;">Klik disini</a>
+                                    Belum punya akun silahkan pilih pendaftaran, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
                               <!-- Icon block -->
