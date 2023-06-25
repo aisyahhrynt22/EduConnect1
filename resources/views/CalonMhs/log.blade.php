@@ -69,7 +69,7 @@
                                     placeholder="Email"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class= "fi fi-br-user"></i>
+                                    <i data-feather="mail"></i>
                                     </span>
                                 </div>  
                             </div>
@@ -84,7 +84,7 @@
                                     placeholder="Password"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl-icon-lock"></i>
+                                    <i data-feather="lock"></i>
                                     </span>
                                 </div>
                             </div>
@@ -96,10 +96,10 @@
                                     type="text"
                                     id="pengaman"
                                     name="pengaman"
-                                    placeholder="2 + 3 = ?"
+                                    placeholder="27 + 18 = ?"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl-icon-lock"></i>
+                                    <i data-feather="lock"></i>
                                     </span>
                                 </div>
                             </div>
@@ -146,12 +146,12 @@
                             "
                         >
                             <h2 class="subtitle is-light is-4 has-text-left">
-                                <i class="im im-icon-Information"></i> Petunjuk
+                                <i data-feather="info"></i> Petunjuk
                             </h2>
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                    <i class="im im-icon-Lock-3"></i>
+                                    <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                     Lupa password silahkan, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
@@ -160,7 +160,7 @@
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                <iclass= "fi fi-rr-user"></i>
+                                <i data-feather="user-plus"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                     Belum punya akun silahkan pilih pendaftaran, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>

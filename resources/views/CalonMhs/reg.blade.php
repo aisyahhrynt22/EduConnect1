@@ -174,12 +174,12 @@
                             "
                         >
                             <h2 class="subtitle is-light is-4 has-text-left">
-                                <i class="im im-icon-Information"></i> Petunjuk
+                                <i data-feather="info"></i> Petunjuk
                             </h2>
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                    <i class="im im-icon-Lock-3"></i>
+                                    <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                     Lupa password silahkan, <a href="https://penerimaan.uai.ac.id/login/lupa_password" style="color: black;">Klik disini</a>
@@ -188,7 +188,7 @@
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                    <i class="im im-icon-Add-User"></i>
+                                    <i data-feather="user-plus"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                                                             Login akun silahkan, <a href="https://penerimaan.uai.ac.id/login" style="color: black;">Klik disini</a>

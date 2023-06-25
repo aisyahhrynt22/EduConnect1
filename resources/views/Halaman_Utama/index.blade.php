@@ -102,19 +102,19 @@
               <div class="mega-inner">
                 <div class="container">
                   <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/BiayaKuliah">
-                    <i class="im im-icon-Open-Book"></i>
+                    <i data-feather="book-open"></i>
                     <div class="navbar-content">
                       <p>Biaya Kuliah</p>
                     </div>
                   </a>
                   <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/assets/img/BUKU_PEDOMAN_DAN_PROSEDUR_2023_NEW.pdf">
-                    <i class="im im-icon-Open-Book"></i>
+                    <i data-feather="book-open"></i>
                     <div class="navbar-content">
                       <p>Buku Pedoman dan Jalur Masuk</p>
                     </div>
                   </a>
                   <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/PengumumanKelulusan">
-                    <i class="im im-icon-Open-Book"></i>
+                    <i data-feather="book-open"></i>
                     <div class="navbar-content">
                       <p>Pengumuman Kelulusan Beasiswa</p>
                     </div>
@@ -128,7 +128,7 @@
           <!-- Mobile dropdown -->
           <div class="mobile-drop is-hidden-desktop">
             <div class="mobile-drop-trigger">
-              Informasi PMB <i class="material-icons">keyboard_arrow_right</i>
+              Informasi PMB <i class="material-icons">keyboard_arrow_right></i>
             </div>
             <div class="child-menu">
               <ul>
@@ -154,13 +154,13 @@
               <div class="mega-inner">
                 <div class="container">
                   <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/Brosur">
-                    <i class="im im-icon-Open-Book"></i>
+                    <i data-feather="book-open"></i>
                     <div class="navbar-content">
                       <p>Brosur Program Study</p>
                     </div>
                   </a>
                   <a class="navbar-item is-flex" href="https://penerimaan.uai.ac.id/home/Prodi">
-                    <i class="im im-icon-Open-Book"></i>
+                    <i data-feather="book-open"></i>
                     <div class="navbar-content">
                       <p>Video Program Study</p>
                     </div>
@@ -371,10 +371,10 @@
     
     <!-- Navigation arrows -->
     <button class="Wallop-buttonPrevious is-hidden-mobile" style="background:#4668ab;border-radius: 50%;">
-      <i class="material-icons"><-</i>
+      <i data-feather="arrow-left"><-</i>
     </button>
     <button class="Wallop-buttonNext is-hidden-mobile" style="background:#4668ab;border-radius: 50%;">
-      <i class="material-icons">-></i>
+      <i data-feather="arrow-right">-></i>
     </button>
 
   </div>
