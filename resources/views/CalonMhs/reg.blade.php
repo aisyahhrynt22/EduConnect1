@@ -53,7 +53,7 @@
                         <!-- <div class="flex-card light-bordered light-raised">
                             <div class="card-body"> -->
                                 <div class="auth-content has-text-centered">
-                                    <h3 class="title is-3 is-styled">Form Pendaftaran </br> S1 Kelas Reguler atau karyawan </h3>
+                                    <h3 class="title is-3 is-styled">Form Pendaftaran </br> Mahasiswa </h3>
                                         <p class="title">Silakan melengkapi form untuk mendaftar ke UAI.</p>
                                     <!-- <hr> -->
                                 </div>
@@ -91,18 +91,36 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="columns pt-8">
                                         <div class="column" style="display: flex;">
                                             <div class="field">
                                                 <div class="control">
-                                                    <label>No.Telp Calon Mahasiswa</label>
+                                                    <label>No. Telp Calon Mahasiswa</label>
+                                                    <input class="input is-medium mt-3" type="password" id="password" name="password"  tabindex="3"/>
+                                                </div>
+                                            </div>
+                                            <div class="field" style="margin-left: 10px;">
+                                                <div class="control">
+                                                    <label>No. Telp Orang Tua</label>
+                                                    <input class="input is-medium mt-3" type="password" id="repassword" name="repassword"  tabindex="4"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="columns pt-8">
+                                        <div class="column" style="display: flex;">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label>Kode Referal</label>
                                                     <input class="input is-medium mt-3" type="tel" id="no_telp" name="no_telp"  tabindex="5"/>
                                                 </div>
                                             </div>
                                              
                                             <div class="field" style="margin-left: 10px;">
                                                 <div class="control">
-                                                    <label>No.Telp Orang Tua</label>
+                                                    <label>Nama Agen</label>
                                                     <input class="input is-medium mt-3" type="tel" id="no_telp_ortu" name="no_telp_ortu"  tabindex="6"/>
                                                 </div>
                                             </div>
@@ -123,7 +141,7 @@
                                             primary-btn
                                             "
                                         >
-                                            Daftar
+                                            Register
                                         </button>
                                     </div>
                                 </form>
