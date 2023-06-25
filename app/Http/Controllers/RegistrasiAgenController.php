@@ -26,6 +26,6 @@ class RegistrasiAgenController extends Controller
         $agen->Password = $request->Email;
 
         $agen->save();
-        return redirect('/RegistrasiAgen/reg');
+        return redirect('/LoginAgen');
     }
 }

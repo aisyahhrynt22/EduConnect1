@@ -27,6 +27,11 @@ Route::get('/RegistrasiAgen/reg', [RegistrasiAgenController::class, 'reg']); // 
 Route::post('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
 
 Route::get('/LoginAgen', [LoginAgenController::class, 'log']); 
+
+// Route::middleware(['auth'])->group(function () {
+//     Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
+// });
+
 Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
 
 
