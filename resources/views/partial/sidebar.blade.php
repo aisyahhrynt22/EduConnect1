@@ -7,7 +7,7 @@
     </a> --}}
     <a href="../../index3.html" class="brand-link">
         <img src="{{asset('admin/dist/img/logouai.png')}}" alt="AdminLTE Logo" class="brand-image img-rectangle elevation-3" style="opacity: .9">
-        <span class="brand-text font-weight-light">.</span>
+        <span class="brand-text font-weight-light">Ainut</span>
       </a>
 
     <!-- Sidebar -->
