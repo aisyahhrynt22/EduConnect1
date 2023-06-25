@@ -49,7 +49,7 @@
                     <div class="column"></div>
                     <div class="column is-5 has-text-centered">
                         <div class="auth-content">
-                            <h2 class="mb-3">Login Agen</h2>
+                            <h2 class="mb-3">Login Agent</h2>
                                                             <p>Silahkan masuk ke akun agen Anda.</p>
                                                     </div>
                         <!-- Login Form -->
@@ -69,7 +69,7 @@
                                     placeholder="Email"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl sl-icon-user"></i>
+                                    <i class="icon-user"></i> 
                                     </span>
                                 </div>  
                             </div>
@@ -96,7 +96,7 @@
                                     type="text"
                                     id="pengaman"
                                     name="pengaman"
-                                    placeholder="13 + 26 = ?"
+                                    placeholder="3 + 2 = ?"
                                     />
                                     <span class="icon is-medium is-right">
                                     <i class="sl sl-icon-lock"></i>
@@ -168,12 +168,7 @@
                             </div>
                               <!-- Icon block -->
                               <div class="argument">
-                                <div class="icon">
-                                    <i class="im im-icon-User"></i>
-                                </div>
-                                <div class="argument-text light-text">
-                                    Bagi Dosen/Staf, bisa login menggunakan username dan password SIA.
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

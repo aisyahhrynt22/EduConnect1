@@ -69,7 +69,7 @@
                                     placeholder="Email"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl sl-icon-user"></i>
+                                    <i class= "fi fi-br-user"></i>
                                     </span>
                                 </div>  
                             </div>
@@ -84,7 +84,7 @@
                                     placeholder="Password"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl sl-icon-lock"></i>
+                                    <i class="sl-icon-lock"></i>
                                     </span>
                                 </div>
                             </div>
@@ -96,10 +96,10 @@
                                     type="text"
                                     id="pengaman"
                                     name="pengaman"
-                                    placeholder="13 + 26 = ?"
+                                    placeholder="2 + 3 = ?"
                                     />
                                     <span class="icon is-medium is-right">
-                                    <i class="sl sl-icon-lock"></i>
+                                    <i class="sl-icon-lock"></i>
                                     </span>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                    <i class="im im-icon-Add-User"></i>
+                                <iclass= "fi fi-rr-user"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                     Belum punya akun silahkan pilih pendaftaran, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
@@ -168,12 +168,7 @@
                             </div>
                               <!-- Icon block -->
                               <div class="argument">
-                                <div class="icon">
-                                    <i class="im im-icon-User"></i>
-                                </div>
-                                <div class="argument-text light-text">
-                                    Bagi Dosen/Staf, bisa login menggunakan username dan password SIA.
-                                </div>
+    
                             </div>
                         </div>
                     </div>
