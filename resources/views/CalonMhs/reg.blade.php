@@ -208,7 +208,7 @@
                                     <i class="im im-icon-Teacher"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Untuk info Kelas Karyawan silahkan, <a href="https://penerimaan.uai.ac.id/home/KelasKaryawan" style="color: black;" target="_blank">Klik disini</a>
+                                    Untuk info program studi, <a href="https://penerimaan.uai.ac.id/home/KelasKaryawan" style="color: black;" target="_blank">Klik disini</a>
                                 </div>
                             </div>
                         </div>
