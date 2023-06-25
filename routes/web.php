@@ -23,8 +23,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HalamanUtamaController::class, 'index']);
 
 //CRUD Agen
-Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'reg']); // ke tampilan registrasi
-Route::put('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
+Route::get('/RegistrasiAgen/reg', [RegistrasiAgenController::class, 'reg']); // ke tampilan registrasi
+Route::post('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
 
 Route::get('/LoginAgen', [LoginAgenController::class, 'log']); 
 Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
