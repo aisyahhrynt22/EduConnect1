@@ -62,7 +62,7 @@
                                     <!-- Input -->
                                     <div class="field pb-10">
                                         <div class="control has-icons-right">
-                                            <input class="input is-medium has-shadow" type="text" id="nama" name="nama" placeholder="Nama"/>
+                                            <input class="input is-medium has-shadow" type="text" id="Name" name="Name" placeholder="Nama"/>
                                             <span class="icon is-medium is-right">
                                             <i data-feather="user"></i></span>
                                         </div>  
@@ -70,7 +70,7 @@
                                     <!-- Input -->
                                     <div class="field pb-10">
                                         <div class="control has-icons-right">
-                                            <input class="input is-medium has-shadow" type="text" id="email" name="email" placeholder="Email"/>
+                                            <input class="input is-medium has-shadow" type="text" id="Email" name="Email" placeholder="Email"/>
                                             <span class="icon is-medium is-right">
                                             <i data-feather="mail"></i></span>
                                         </div>  
@@ -78,7 +78,7 @@
                                     <!-- Input -->
                                     <div class="field pb-10">
                                         <div class="control has-icons-right">
-                                            <input class="input is-medium has-shadow" type="password" id="password" name="password" placeholder="Password"/>
+                                            <input class="input is-medium has-shadow" type="password" id="Password" name="Password" placeholder="Password"/>
                                             <span class="icon is-medium is-right">
                                             <i data-feather="lock">lock</i>
                                             </span>
@@ -87,7 +87,7 @@
                                     <!-- Input -->
                                     <div class="field pb-10">
                                         <div class="control has-icons-right">
-                                            <input class="input is-medium has-shadow" type="password" id="password" name="password" placeholder="Confirm Password"/>
+                                            <input class="input is-medium has-shadow" type="password" id="Password" name="Password" placeholder="Confirm Password"/>
                                             <span class="icon is-medium is-right">
                                             <i data-feather="lock">lock</i>
                                             </span>
