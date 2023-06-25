@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>Penerimaan Mahasiswa Baru UAI</title>
+        <title>Pendaftaran MGM</title>
         <link rel="icon" href="/HalamanAgen" sizes="32x32">
 	    <!-- <link href="https://penerimaan.uai.ac.id/file/template/limitless/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
 
@@ -30,7 +30,7 @@
 
 
         <!-- CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> --}}
      
     </head>
     <body>

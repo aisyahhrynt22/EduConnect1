@@ -26,7 +26,7 @@
 
 
         <!-- CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> --}}
      
     </head>
     <body>
@@ -203,14 +203,7 @@
                                     Untuk info blended learning silahkan, <a href="https://blendedlearning.uai.ac.id/" style="color: black;">Klik disini</a>
                                 </div>
                             </div> -->
-                            <div class="argument">
-                                <div class="icon">
-                                    <i class="im im-icon-Teacher"></i>
-                                </div>
-                                <div class="argument-text light-text">
-                                    Untuk info Kelas Karyawan silahkan, <a href="https://penerimaan.uai.ac.id/home/KelasKaryawan" style="color: black;" target="_blank">Klik disini</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
