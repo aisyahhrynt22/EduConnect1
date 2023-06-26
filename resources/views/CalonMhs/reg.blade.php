@@ -203,15 +203,6 @@
                                     Informasi program studi, <a href="https://penerimaan.uai.ac.id/home/Brosur" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
-
-                            </div> -->
-                            <div class="argument">
-                                <div class="icon">
-                                    <i class="im im-icon-Teacher"></i>
-                                </div>
-                                <div class="argument-text light-text">
-                                    Untuk info Kelas Karyawan silahkan, <a href="https://penerimaan.uai.ac.id/home/KelasKaryawan" style="color: black;" target="_blank">Klik disini</a>
-                                </div>
                             </div>
                         </div>
                     </div>
