@@ -120,7 +120,7 @@
                                              
                                             <div class="field" style="margin-left: 10px;">
                                                 <div class="control">
-                                                    <label>Nama Agen</label>
+                                                    <label>Nama Agent</label>
                                                     <input class="input is-medium mt-3" type="tel" id="no_telp_ortu" name="no_telp_ortu"  tabindex="6"/>
                                                 </div>
                                             </div>
