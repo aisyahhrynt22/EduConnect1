@@ -26,7 +26,7 @@
 
 
         <!-- CDN -->
-        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
      
     </head>
     <body>
@@ -97,13 +97,13 @@
                                             <div class="field">
                                                 <div class="control">
                                                     <label>No. Telp Calon Mahasiswa</label>
-                                                    <input class="input is-medium mt-3" type="password" id="password" name="password"  tabindex="3"/>
+                                                    <input class="input is-medium mt-3" type="password" id="password" name="password"  tabindex="5"/>
                                                 </div>
                                             </div>
                                             <div class="field" style="margin-left: 10px;">
                                                 <div class="control">
                                                     <label>No. Telp Orang Tua</label>
-                                                    <input class="input is-medium mt-3" type="password" id="repassword" name="repassword"  tabindex="4"/>
+                                                    <input class="input is-medium mt-3" type="password" id="repassword" name="repassword"  tabindex="6"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,14 +113,14 @@
                                         <div class="column" style="display: flex;">
                                             <div class="field">
                                                 <div class="control">
-                                                    <label>Kode Referal</label>
-                                                    <input class="input is-medium mt-3" type="tel" id="no_telp" name="no_telp"  tabindex="5"/>
+                                                    <label>Kode Reveral</label>
+                                                    <input class="input is-medium mt-3" type="text" id="Kode_Reveral" name="Kode_Reveral"  tabindex="5"/>
                                                 </div>
                                             </div>
                                              
                                             <div class="field" style="margin-left: 10px;">
                                                 <div class="control">
-                                                    <label>Nama Agent</label>
+                                                    <label>Nama Agen</label>
                                                     <input class="input is-medium mt-3" type="tel" id="no_telp_ortu" name="no_telp_ortu"  tabindex="6"/>
                                                 </div>
                                             </div>
@@ -188,7 +188,7 @@
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                    <i data-feather="user-plus"></i>
+                                    <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                                                             Login akun silahkan, <a href="https://penerimaan.uai.ac.id/login" style="color: black;">Klik disini</a>
@@ -204,6 +204,15 @@
                                 </div>
                             </div>
 
+                            </div> -->
+                            <div class="argument">
+                                <div class="icon">
+                                    <i class="im im-icon-Teacher"></i>
+                                </div>
+                                <div class="argument-text light-text">
+                                    Untuk info Kelas Karyawan silahkan, <a href="https://penerimaan.uai.ac.id/home/KelasKaryawan" style="color: black;" target="_blank">Klik disini</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

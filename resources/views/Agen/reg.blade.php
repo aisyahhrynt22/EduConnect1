@@ -57,7 +57,8 @@
                                                                     <p>Daftar akun agen Anda sekarang!</p>
                                                             </div>
                                 <!-- Login Form -->
-                                <form class="login-form" method="post">
+                                <form action="/RegistrasiAgen" method="POST">
+                                    @csrf
                                 <div id="signin-form" class="login-form animated preFadeInLeft fadeInLeft">
                                     <!-- Input -->
                                     <div class="field pb-10">
