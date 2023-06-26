@@ -26,13 +26,16 @@ Route::get('/', [HalamanUtamaController::class, 'index']);
 Route::get('/RegistrasiAgen/reg', [RegistrasiAgenController::class, 'reg']); // ke tampilan registrasi
 Route::post('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
 
-Route::get('/LoginAgen', [LoginAgenController::class, 'log']); 
+#Route::get('/login', [LoginAgenController::class, 'log']); 
+Route::get('/LoginAgen', function () {
+    return view('agen.log');
+})->name('login');
 
-// Route::middleware(['auth'])->group(function () {
-//     Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
-// });
+Route::middleware(['web'])->group(function () {
+    Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
+});
 
-Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
+//Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
 
 
 //CRUD Calon Mhs
