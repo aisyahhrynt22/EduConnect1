@@ -203,11 +203,7 @@
                                     Informasi program studi, <a href="https://penerimaan.uai.ac.id/home/Brosur" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
-<<<<<<< HEAD
-
-=======
                             </div>
->>>>>>> aec549ad064e2a12cd4c0148da312f4786373221
                         </div>
                     </div>
                 </div>

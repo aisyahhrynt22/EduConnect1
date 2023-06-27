@@ -2,16 +2,16 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #809BCE">
     <!-- Brand Logo -->
     <div class="auth-logo mt-30 has-text-centered">
-                        <a href="/"><img class="dark-logo switcher-logo" src="https://penerimaan.uai.ac.id/file/images/logouai.png" alt="" width="180"></a>
-                    </div>
-    <!-- {{-- <a href="../../index3.html" class="brand-link">
+      <a href="/"><img class="dark-logo switcher-logo" src="https://penerimaan.uai.ac.id/file/images/logouai.png" alt="" width="180"></a>
+  </div>
+    {{-- <a href="../../index3.html" class="brand-link">
       <img src="{{asset('admin/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Agen</span>
-    </a> --}} -->
-    <!-- <a class="brand-link">
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a> --}}
+    {{-- <a class="brand-link">
         <img src="{{asset('admin/dist/img/logouai.png')}}" alt="AdminLTE Logo" class="brand-image img-rectangle elevation-3" style="opacity: .9">
-        <span class="brand-text font-weight-light">Ainut</span>
-      </a> -->
+        <span class="brand-text font-weight-light">{{ Auth::user()->name }}</span>
+      </a> --}}
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -88,12 +88,17 @@
               </li>
 
               <li class="nav-item">
-                <a href="../widgets.html" class="nav-link">
-                  <i class="nav-icon fas fa-th"></i>
-                  <p>
-                    Log Out
-                  </p>
-                </a>
+              <!-- Authentication -->
+                <form href="../widgets.html" class="nav-link bg-danger" method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <i class="nav-icon far fa-sign-out" aria-hidden="true"></i>
+                    <x-dropdown-link :href="route('logout')"
+                          onclick="event.preventDefault();
+                                  this.closest('form').submit();">
+                          {{ __('Log Out') }}
+                    </x-dropdown-link>
+                </form>
             </li>
       </ul>
     </nav>
