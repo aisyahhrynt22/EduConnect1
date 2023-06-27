@@ -195,14 +195,14 @@
                                                                     </div>
                             </div>
                             <!-- Icon block -->
-                            <!-- <div class="argument">
+                            <div class="argument">
                                 <div class="icon">
                                     <i class="im im-icon-Spell-Check"></i>
                                 </div>
                                 <div class="argument-text light-text">
                                     Untuk info blended learning silahkan, <a href="https://blendedlearning.uai.ac.id/" style="color: black;">Klik disini</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
                     </div>
