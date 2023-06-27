@@ -23,11 +23,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HalamanUtamaController::class, 'index']);
 
 //CRUD Agen
-Route::get('/RegistrasiAgen', [RegistrasiAgenController::class, 'reg']); // ke tampilan registrasi
-Route::put('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
+Route::get('/RegistrasiAgen/reg', [RegistrasiAgenController::class, 'reg']); // ke tampilan registrasi
+Route::post('/RegistrasiAgen', [RegistrasiAgenController::class, 'store']); // utk simpen data ke database
 
-Route::get('/LoginAgen', [LoginAgenController::class, 'log']); 
-Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
+#Route::get('/login', [LoginAgenController::class, 'log']); 
+Route::get('/LoginAgen', function () {
+    return view('agen.log');
+})->name('login');
+
+Route::middleware(['web'])->group(function () {
+    Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
+});
+
+//Route::get('/HalamanAgen', [HalamanAgenController::class, 'index']);
 
 
 //CRUD Calon Mhs
