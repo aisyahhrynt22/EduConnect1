@@ -16,11 +16,17 @@ use App\Http\Controllers\RegisterCalonMhsController;
 |
 */
 
-//Agen
+//Halaman Utama
 Route::get('/', function () {
     return view('welcome');
 });
 
+//Agen
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+//Admin
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
