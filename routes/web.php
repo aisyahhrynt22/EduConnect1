@@ -23,11 +23,11 @@ Route::get('/', function () {
 
 //Agen
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('Agen.dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 //Admin
-Route::get('/dashboard', function () {
+Route::get('/dashboard_admin', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
