@@ -1,16 +1,16 @@
-@extends('layouts.master')
+@extends('layout.master_admin')
 
 @section('nama')
-    <h4>hi, {{ Auth::user()->name }}</h4>
+    <h4>hi, Admin {{ Auth::user()->name }}</h4>
 @endsection
 
 @section('nama1')
-Gunakan link di bawah ini untuk promosi lebih banyak
+Tes
 @endsection
 
 @section('konten1')
-<h4> Link           = https://penerimaan.uai.ac.id/{{ Auth::user()->name }}{{ Auth::user()->id }} </h4> </br>
-<h4> Kode Referral  = {{ Auth::user()->name }}{{ Auth::user()->id }} </h4>
+Tes
+
 {{-- <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
