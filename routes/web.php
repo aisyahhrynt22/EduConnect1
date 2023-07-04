@@ -28,8 +28,8 @@ Route::get('/dashboard', function () {
 
 //Admin
 Route::get('/dashboard_admin', function () {
-    return view('dashboard_admin');
-})->middleware(['auth_admin'])->name('dashboard_admin');
+    return view('Admin.dashboard_admin');
+})->middleware(['auth'])->name('dashboard_admin');
 
 require __DIR__.'/auth.php';
 
