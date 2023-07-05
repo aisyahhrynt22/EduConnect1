@@ -1,5 +1,5 @@
 
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #809BCE">
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #80ceac">
     <!-- Brand Logo -->
     <div class="auth-logo mt-30 has-text-centered">
       <a href="/"><img class="dark-logo switcher-logo" src="https://penerimaan.uai.ac.id/file/images/logouai.png" alt="" width="180"></a>
