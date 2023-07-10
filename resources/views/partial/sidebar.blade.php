@@ -64,15 +64,6 @@
                 <a href="../widgets.html" class="nav-link">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
-                    Pendapatan
-                  </p>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="../widgets.html" class="nav-link">
-                  <i class="nav-icon fas fa-th"></i>
-                  <p>
                     Informasi
                   </p>
                 </a>
