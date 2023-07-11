@@ -21,6 +21,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/bantuan', function () {
+    return view('bantuan');
+});
+
 //Agen
 Route::get('/dashboard', function () {
     return view('Agen.dashboard');
