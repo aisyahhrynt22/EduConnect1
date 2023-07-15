@@ -154,6 +154,20 @@
                                                 <!-- <button class="button is-light button-cta is-bold no-lh">
                                                     Cancel
                                                 </button> -->
+
+                                                {{-- Terms and conditions --}}
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                                                            <label class="form-check-label" for="invalidCheck3">
+                                                                Agree to <a href="https://drive.google.com/file/d/1cScRqImVvnT1UvsY1pWymjSEZcYa46jk/view?usp=sharing" style="color: rgb(255, 0, 0);">terms and conditions</a>
+                                                            </label>
+                                                            <div class="invalid-feedback">
+                                                                You must agree before submitting.
+                                                            </div>
+                                                    </div>
+                                                </div>
+
                                                 <button tabindex="7" type="submit" id="daftarBtn"
                                                     class="
                                                     button
