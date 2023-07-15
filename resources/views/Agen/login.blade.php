@@ -95,7 +95,7 @@
                                     </div>
                                     <!-- Submit -->
                                     <p class="control login">
-                                    <button
+                                    <button 
                                         class="
                                         button button-cta
                                         primary-btn
@@ -144,7 +144,7 @@
                                             <i data-feather="lock"></i>
                                         </div>
                                         <div class="argument-text light-text">
-                                            Lupa password silahkan, <a href=/RegistrasiAgen/reg style="color: black;">Klik disini</a>
+                                            Lupa password silahkan, <a href=/ style="color: black;">Klik disini</a>
                                         </div>
                                     </div>
                                     <!-- Icon block -->
@@ -153,7 +153,16 @@
                                             <i data-feather="user-plus"></i>
                                         </div>
                                         <div class="argument-text light-text">
-                                            Belum punya akun agen silahkan pilih pendaftaran, <a href=/RegistrasiAgen/reg style="color: black;">Klik disini</a>
+                                            Belum punya akun agen silahkan pilih pendaftaran, <a href=/agen/register style="color: black;">Klik disini</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="argument">
+                                        <div class="icon">
+                                            <i data-feather="user-plus"></i>
+                                        </div>
+                                        <div class="argument-text light-text">
+                                            Sebagai Admin? silahkan , <a href=/adminedu/login style="color: black;">Klik disini</a>
                                         </div>
                                     </div>
                                     <!-- Icon block -->

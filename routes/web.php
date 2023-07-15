@@ -2,9 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\LoginCalonMhsController;
-use App\Http\Controllers\RegisterCalonMhsController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,11 +13,12 @@ use App\Http\Controllers\RegisterCalonMhsController;
 |
 */
 
-//Halaman Utama
+// ------------------Halaman utama------------------
 Route::get('/', function () {
-    return view('welcome');
+    return view('halaman_utama.home');
 });
 
+<<<<<<< HEAD
 
 Route::get('/bantuan', function () {
     return view('bantuan');
@@ -30,15 +28,56 @@ Route::get('/bantuan', function () {
 Route::get('/dashboard', function () {
     return view('Agen.dashboard');
 })->middleware(['auth'])->name('dashboard');
+=======
+// ------------------Admin------------------
+Route::get('/adminedu/login', function () {
+    return view('admin.login');
+});
+>>>>>>> fdd887461d2c1c5a61a2a4ed20999721170fcd25
 
-//Admin
-Route::get('/dashboard_admin', function () {
-    return view('Admin.dashboard_admin');
-})->middleware(['auth'])->name('dashboard_admin');
+Route::get('/adminedu', function () {
+    return view('admin.home');
+});
 
-require __DIR__.'/auth.php';
+Route::get('/adminedu/cek_mgm', function () {
+    return view('admin.cek_mgm');
+});
 
-//Calon Mhs
+Route::get('/adminedu/informasi_agen', function () {
+    return view('admin.informasi_agen');
+});
 
-Route::get('/LoginMhs', [LoginCalonMhsController::class, 'log']);
-Route::get('/RegistrasiMhs', [RegisterCalonMhsController::class, 'reg']);
+// ------------------Agen------------------
+Route::get('/agen/login', function () {
+    return view('agen.login');
+});
+
+Route::get('/agen/register', function () {
+    return view('agen.regis');
+});
+
+Route::get('/agen', function () {
+    return view('agen.home');
+});
+
+Route::get('/agen/profil', function () {
+    return view('agen.profil');
+});
+
+Route::get('/agen/informasi', function () {
+    return view('agen.informasi');
+});
+
+Route::get('/agen/bantuan', function () {
+    return view('agen.bantuan');
+});
+
+// ------------------Calon_Mhs------------------
+Route::get('/calon_mhs/login', function () {
+    return view('calon_mhs.login');
+});
+
+Route::get('/calon_mhs/register', function () {
+    return view('calon_mhs.regis');
+});
+

@@ -33,101 +33,129 @@
         <!-- <div class="pageloader"></div>
         <div class="infraloader is-active"></div>-->
 
-        <!-- Wrapper -->
+        
+<!-- Wrapper -->
 <div class="login-wrapper columns is-gapless">
     <!-- Form section -->
     <div class="column is-7">
-    <div class="hero is-fullheight">
-        <div class="hero-heading">
-            <div class="auth-logo mt-30 has-text-centered">
-                <a href="/"><img class="dark-logo switcher-logo" src="https://penerimaan.uai.ac.id/file/images/logouai.png" alt="" width="180"></a>
-            </div>
-        </div>
-        <div class="hero-body mb-80 ">
-            <div class="container">
-                <div class="columns">
-                    <div class="column"></div>
-                    <div class="column is-5 has-text-centered">
-                        <div class="auth-content">
-                            <h2 class="mb-3">Login</h2>
-                                                            <p>Silahkan masuk ke akun Anda.</p>
-                                                    </div>
-                        <!-- Login Form -->
-                                                <form class="login-form" method="post">
-                        <div
-                            id="signin-form"
-                            class="login-form animated preFadeInLeft fadeInLeft"
-                        >
-                            <!-- Input -->
-                            <div class="field pb-10">
-                                <div class="control has-icons-right">
-                                    <input
-                                    class="input is-medium has-shadow"
-                                    type="text"
-                                    id="email"
-                                    name="email"
-                                    placeholder="Email"
-                                    />
-                                    <span class="icon is-medium is-right">
-                                    <i data-feather="mail"></i>
-                                    </span>
-                                </div>  
-                            </div>
-                            <!-- Input -->
-                            <div class="field pb-10">
-                                <div class="control has-icons-right">
-                                    <input
-                                    class="input is-medium has-shadow"
-                                    type="password"
-                                    id="password"
-                                    name="password"
-                                    placeholder="Password"
-                                    />
-                                    <span class="icon is-medium is-right">
-                                    <i data-feather="lock"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Input -->
-                            <div class="field pb-10">
-                                <div class="control has-icons-right">
-                                    <input
-                                    class="input is-medium has-shadow"
-                                    type="text"
-                                    id="pengaman"
-                                    name="pengaman"
-                                    placeholder="27 + 18 = ?"
-                                    />
-                                    <span class="icon is-medium is-right">
-                                    <i data-feather="lock"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Submit -->
-                            <p class="control login">
-                            <button
-                                class="
-                                button button-cta
-                                primary-btn
-                                btn-align-lg
-                                is-bold is-fullwidth
-                                rounded
-                                raised
-                                no-lh
-                                "
-                            >
-                                Log in
-                            </button>
-                            </p>
-                        </div>
-                        </form>
-                                                <!-- <p class="has-text-centered">Lupa Password ? <a href="https://penerimaan.uai.ac.id/login/lupa_password">Klik disini.</a></p>    -->
-                    </div>
-                <div class="column"></div>
+        <div class="hero is-fullheight">
+            <div class="hero-heading">
+                <div class="auth-logo mt-30 has-text-centered">
+                    <a href="/"><img class="dark-logo switcher-logo" src="https://penerimaan.uai.ac.id/file/images/logouai.png" alt="" width="180"></a>
                 </div>
             </div>
+            <div class="hero-body">
+            <div class="container">
+            <!-- 2 columns -->
+          
+                <div class="columns is-vcentered">
+                    <div class="column is-9 is-offset-1">
+                        <!-- <div class="flex-card light-bordered light-raised">
+                            <div class="card-body"> -->
+                                <div class="auth-content has-text-centered">
+                                    <h3 class="title is-3 is-styled">Form Pendaftaran </br> Mahasiswa </h3>
+                                        <p class="title">Silakan melengkapi form untuk mendaftar ke UAI.</p>
+                                    <!-- <hr> -->
+                                </div>
+                                <form id="signupform">
+                                    <input  type="hidden" id="jenjang" name="jenjang" value="Kelas Karyawan"/>
+                                    <div class="columns pt-8">
+                                        <div class="column" style="display: flex;">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label>Nama Lengkap <span style='font-size:12px;'>(Sesuai KTP)</span> </label>
+                                                    <input class="input is-medium mt-3" type="text" id="nama_lengkap" name="nama_lengkap" tabindex="1"/>
+                                                </div>
+                                            </div>
+                                            <div class="field" style="margin-left: 10px;">
+                                                <div class="control">
+                                                    <label>Email <span style='font-size:12px;'>(Gunakan Email Aktif)</span> </label>
+                                                    <input class="input is-medium mt-3" type="email" id="email" name="email" tabindex="2"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns pt-8">
+                                        <div class="column" style="display: flex;">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label>Password</label>
+                                                    <input class="input is-medium mt-3" type="password" id="password" name="password"  tabindex="3"/>
+                                                </div>
+                                            </div>
+                                            <div class="field" style="margin-left: 10px;">
+                                                <div class="control">
+                                                    <label>Ulangi Password</label>
+                                                    <input class="input is-medium mt-3" type="password" id="repassword" name="repassword"  tabindex="4"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="columns pt-8">
+                                        <div class="column" style="display: flex;">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label>No. Telp Calon Mahasiswa</label>
+                                                    <input class="input is-medium mt-3" type="password" id="password" name="password"  tabindex="5"/>
+                                                </div>
+                                            </div>
+                                            <div class="field" style="margin-left: 10px;">
+                                                <div class="control">
+                                                    <label>No. Telp Orang Tua</label>
+                                                    <input class="input is-medium mt-3" type="password" id="repassword" name="repassword"  tabindex="6"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="columns pt-8">
+                                        <div class="column" style="display: flex;">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label>Kode Reveral</label>
+                                                    <input class="input is-medium mt-3" type="text" id="Kode_Reveral" name="Kode_Reveral"  tabindex="5"/>
+                                                </div>
+                                            </div>
+                                             
+                                            <div class="field" style="margin-left: 10px;">
+                                                <div class="control">
+                                                    <label>Nama Agent</label>
+                                                    <input class="input is-medium mt-3" type="tel" id="no_telp_ortu" name="no_telp_ortu"  tabindex="6"/>
+                                                </div>
+                                            </div>
+                                                                                    </div>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <!-- <button class="button is-light button-cta is-bold no-lh">
+                                            Cancel
+                                        </button> -->
+                                        <button tabindex="7" type="submit" id="daftarBtn"
+                                            class="
+                                            button
+                                            btn-align
+                                            button-cta
+                                            is-bold
+                                            no-lh
+                                            raised
+                                            primary-btn
+                                            "
+                                        >
+                                            Register
+                                        </button>
+                                    </div>
+                                </form>
+                                <!-- <p>Ada Pertanyaan ? <a href="#">Klik disini.</a></p>
+                                <p>Lupa Password ? <a href="https://penerimaan.uai.ac.id/login/lupa_password">Klik disini.</a></p> -->
+                            <!-- </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- 2 columns -->
+        
+            </div>
+            </div>
         </div>
-    </div>
     </div>
 
     <!-- Image section (hidden on mobile) -->
@@ -142,7 +170,7 @@
                             signup-context
                             primary-card
                             light-raised
-                            padding-50
+                            padding-70
                             "
                         >
                             <h2 class="subtitle is-light is-4 has-text-left">
@@ -154,21 +182,27 @@
                                     <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Lupa password silahkan, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
+                                    Lupa password silahkan, <a href="https://penerimaan.uai.ac.id/login/lupa_password" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
                             <!-- Icon block -->
                             <div class="argument">
                                 <div class="icon">
-                                <i data-feather="user-plus"></i>
+                                    <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Belum punya akun silahkan pilih pendaftaran, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
+                                                                            Login akun silahkan, <a href="https://penerimaan.uai.ac.id/login" style="color: black;">Klik disini</a>
+                                                                    </div>
+                            </div>
+                            <!-- Icon block -->
+                            <div class="argument">
+                                <div class="icon">
+                                    <i data-feather="book-open"></i>
+                                </div>
+                                <div class="argument-text light-text">
+                                    Informasi program studi, <a href="https://penerimaan.uai.ac.id/home/Brosur" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
-                              <!-- Icon block -->
-                              <div class="argument">
-    
                             </div>
                         </div>
                     </div>
@@ -178,40 +212,73 @@
     </div>
 </div>
 
+
 <script>
     $(function(){
-        $('#email').focus();
-        $('.login-form').on('submit', function(e) {
+        $('#daftarBtn').click(function(){
+
+                
+            $('#nama_lengkap').focus();
+            $('#signupform').on('submit', function(e) {
             e.preventDefault();
-            var email = $('#email').val();
-            var password = $('#password').val();
-            var pengaman = $('#pengaman').val();
+                var nama_lengkap = $('#nama_lengkap').val();
+                var email = $('#email').val();
+                var password = $('#password').val();
+                var repassword = $('#repassword').val();
+                var no_telp = $('#no_telp').val();
+                var no_telp_ortu = $('#no_telp_ortu').val();
+
+                var jenjang = $('#jenjang').val();
+
+                // var checkCaptch = true;
+            if (nama_lengkap == '') {
+                $('#nama_lengkap').focus();
+                swal('Warning', 'Nama Lengkap tidak boleh kosong.', 'warning');
+                return false;
+            }
             if (email == '') {
                 $('#email').focus();
-                swal('Warning', 'Email Wajib diisi', 'warning');
+                swal('Warning', 'Email tidak boleh kosong.', 'warning');
                 return false;
             }
             if (password == '') {
                 $('#password').focus();
-                swal('Warning', 'Password Wajib diisi', 'warning');
+                swal('Warning', 'Password tidak boleh kosong.', 'warning');
                 return false;
             }
-            if (pengaman == '') {
-                $('#pengaman').focus();
-                swal('Warning', 'Jumlahkan Kode Verifikasi dengan benar.', 'warning');
+            if (repassword == '') {
+                $('#repassword').focus();
+                swal('Warning', 'Ulangi Password tidak boleh kosong.', 'warning');
                 return false;
             }
+            if (no_telp == '') {
+                $('#no_telp').focus();
+                swal('Warning', 'No.Telp Camaru tidak boleh kosong.', 'warning');
+                return false;
+            }
+
+             
+                if (no_telp_ortu == ''){
+                    $('#no_telp_ortu').focus();
+                    swal('Warning', 'No.Telp Ortu tidak boleh kosong.', 'warning');
+                    return false;
+                }
+            
             $.ajax({
-                url: "https://penerimaan.uai.ac.id/login/verification_login",
+                url: "https://penerimaan.uai.ac.id/home/camaru_registration",
                 method: "POST",
                 data: {
+                    nama_lengkap: nama_lengkap,
                     email: email,
                     password: password,
-                    pengaman : pengaman
+                    repassword: repassword,
+                    no_telp: no_telp,
+                    no_telp_ortu: no_telp_ortu,
+                    jenjang: jenjang
                 },
                 dataType: "json",
                 beforeSend:function(){
-                    $.blockUI({ message: 'Tunggu sebentar, sedang memproses login...', css: {
+                    $.blockUI({ message: 'Tunggu sebentar, sedang menyimpan data...', css: {
                         border: 'none',
                         padding: '15px',
                         backgroundColor: '#000',
@@ -224,22 +291,31 @@
                 success: function(result) {
                     $.unblockUI();
                     if (result.code == 0) {
+                        // swal({
+                        //     title: result.title,
+                        //     text: result.message,
+                        //     type: "success",
+                        //     // timer: 5000,
+                        // },function(){
+                        //     window.location.replace(result.page);
+                        // });
                         window.location.replace(result.page);
                     }else {
-                        // alert(result.page);
                         swal({
                             title: result.title,
                             text: result.message,
                             type: "error"
+                        }, function(){
+                            $('#email').focus();
                         });
                     }
                 }
-            },'json').fail(function(params) {
-            console.log(params.responseText);
             });
         });
-    })
+    });
+})
 </script>
+        
         <!-- Side navigation -->
         <div class="side-navigation-menu">
             <!-- Categories menu -->
