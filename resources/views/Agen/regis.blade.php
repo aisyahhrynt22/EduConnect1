@@ -120,20 +120,28 @@
                 <div class="colums">
                     <div class="column is-6">
                         <!--section 1 !-->
-                        <div class="section-title text-justify" style="margin-top: 110px;">
-                            <div class="signup-context primary-card light-raised">
-                                <h2 class="subtitle is-light text-left">
+                        <div class="section-title has-text-centered" style="margin-top: 110px;">
+                            <div
+                                class="
+                                signup-context
+                                primary-card
+                                light-raised
+                                padding-50
+                                "
+                            >
+                                <h2 class="subtitle is-light is-4 has-text-left">
                                     <i data-feather="info"></i> Petunjuk
                                 </h2>
                                 <!-- Icon block -->
                                 <div class="argument">
                                     <div class="icon">
-                                        <i stroke="white" data-feather="user-plus"></i>
+                                        <i data-feather="user-plus"></i>
                                     </div>
                                     <div class="argument-text light-text">
-                                        Sudah punya akun agen silahkan, <a href=/agen/login style="color: black;">Klik disini</a>
+                                        Sudah punya akun agen silahkan, <a href="/agen/login" style="color: black;">Klik disini</a>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
