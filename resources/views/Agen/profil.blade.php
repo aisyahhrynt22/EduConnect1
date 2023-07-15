@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="form-group row">
-                  <label for="inputName2" class="col-sm-2 col-form-label">Nomor Rekening</label>
+                  <label for="inputName2" class="col-sm-2 col-form-label">No.Rek</label>
                   <div class="col-sm-10">
                     <p class="text-muted">
                         7171-7171-7171
@@ -120,11 +120,20 @@
                   </div>
                 </div>
 
+                <div class="form-group row">
+                  <label for="inputSkills" class="col-sm-2 col-form-label">Sebagai</label>
+                  <div class="col-sm-10">
+                    <p class="text-muted">
+                        Mahasiswa
+                    </p>
+                  </div>
+                </div>
+
                   <div class="form-group row">
                     <label for="inputExperience" class="col-sm-2 col-form-label">Gambar NIK</label>
                     <div class="col-sm-10">
                         <div class="col-sm-6">
-                            <img class="img-fluid" src="{{asset('admin/dist/img/photo1.png')}}" alt="Photo">
+                            <img class="img-fluid" src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" alt="Photo">
                         </div>
                     </div>
                   </div>
