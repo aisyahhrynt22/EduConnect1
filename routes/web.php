@@ -18,7 +18,6 @@ Route::get('/', function () {
     return view('halaman_utama.home');
 });
 
-<<<<<<< HEAD
 
 Route::get('/bantuan', function () {
     return view('bantuan');
@@ -28,12 +27,6 @@ Route::get('/bantuan', function () {
 Route::get('/dashboard', function () {
     return view('Agen.dashboard');
 })->middleware(['auth'])->name('dashboard');
-=======
-// ------------------Admin------------------
-Route::get('/adminedu/login', function () {
-    return view('admin.login');
-});
->>>>>>> fdd887461d2c1c5a61a2a4ed20999721170fcd25
 
 Route::get('/adminedu', function () {
     return view('admin.home');

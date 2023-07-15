@@ -1,4 +1,28 @@
-<<<<<<< HEAD
+@extends('layout/agen.master_informasi')
+
+@section('nama')
+    <h4>Agen A, ini halaman Bantuan</h4>
+@endsection
+
+@section('nama1')
+Hubungi No di bawah ini 
+@endsection
+
+@push('script')
+<script src="{{asset('admin/plugins/datatables/jquery.dataTables.js')}}"></script>
+<script src="{{asset('admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
+<script>
+  $(function () {
+    $("#example1").DataTable();
+  });
+</script>
+@endpush
+
+@push('style')
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bst4/dt-1.11.3/datatables.min.css"/>
+@endpush
+
+@section('konten1')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,23 +32,8 @@
 </head>
 
 <body>
-    <h1>Hubungi Nomor di bawah ini </h1>
-    <h2>https://wa.me/6281388518191</h2>
+    <h1>https://wa.me/6281388518191</h1>
 </body>
 </html>
 
-=======
-@extends('layout/agen.master_informasi')
-
-@section('nama')
-    <h4>Apakah Agen A butuh bantuan?</h4>
 @endsection
-
-@section('nama1')
-Chat Online
-@endsection
-
-@section('konten1')
-Hubungi kami: 089627929495 (WhattsApp)
-@endsection
->>>>>>> fdd887461d2c1c5a61a2a4ed20999721170fcd25
