@@ -20,7 +20,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-    @include('partial.sidebar')
+    @include('partial.sidebar_admin')
 
 
   <!-- Content Wrapper. Contains page content -->
@@ -40,7 +40,7 @@
     <section class="content">
 
       <!-- Default box -->
-      <div class="card" style="background-color: #809BCE">
+      <div class="card" style="background-color: #5e7298">
         <div class="card-header">
           <h3 class="card-title">@yield('nama1')</h3> <!-- nama 2 -->
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agen</title>
+  <title>Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -11,7 +11,11 @@
   <link rel="stylesheet" href="{{asset('admin/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('admin/dist/css/adminlte.min.css')}}">
+
+  @stack('style')
+
 </head>
+
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
@@ -20,7 +24,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-    @include('partial.sidebar')
+    @include('partial/admin.sidebar')
 
 
   <!-- Content Wrapper. Contains page content -->
@@ -40,8 +44,8 @@
     <section class="content">
 
       <!-- Default box -->
-      <div class="card" style="background-color: #809BCE">
-        <div class="card-header">
+      <div class="card" style="background-color: #ffffff">
+        <div class="card-header" style="background-color: #bbbbbb">
           <h3 class="card-title">@yield('nama1')</h3> <!-- nama 2 -->
 
           <div class="card-tools">
@@ -61,33 +65,6 @@
       </div>
       <!-- /.card -->
     </section>
-<!----------------------------------------------------------------------------------->
-        <!-- Second content -->
-    {{-- <section class="content">
-
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">@yield('nama2')</h3> <!-- nama 2 -->
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-        <div class="card-body">
-            @yield('konten2') <!-- nama 3 -->
-        </div>
-        <!-- /.card-body -->
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
-
-    </section> --}}
     
     <!-- /.content -->
   </div>
@@ -117,5 +94,7 @@
 <script src="{{asset('admin/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('admin/dist/js/demo.js')}}"></script>
+
+@stack('script')
 </body>
 </html>

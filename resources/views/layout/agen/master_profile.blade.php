@@ -11,7 +11,11 @@
   <link rel="stylesheet" href="{{asset('admin/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('admin/dist/css/adminlte.min.css')}}">
+
+  @stack('style')
+
 </head>
+
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
@@ -20,7 +24,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-    @include('partial.sidebar')
+    @include('partial/agen.sidebar')
 
 
   <!-- Content Wrapper. Contains page content -->
@@ -38,56 +42,9 @@
 <!----------------------------------------------------------------------------------->
     <!-- Main content -->
     <section class="content">
-
-      <!-- Default box -->
-      <div class="card" style="background-color: #809BCE">
-        <div class="card-header">
-          <h3 class="card-title">@yield('nama1')</h3> <!-- nama 2 -->
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-        <div class="card-body">
-            @yield('konten1') <!-- nama 3 -->
-        </div>
-        <!-- /.card-body -->
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
+      @yield('konten')
     </section>
-<!----------------------------------------------------------------------------------->
-        <!-- Second content -->
-    {{-- <section class="content">
-
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">@yield('nama2')</h3> <!-- nama 2 -->
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-        <div class="card-body">
-            @yield('konten2') <!-- nama 3 -->
-        </div>
-        <!-- /.card-body -->
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
-
-    </section> --}}
+  
     
     <!-- /.content -->
   </div>
@@ -117,5 +74,7 @@
 <script src="{{asset('admin/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('admin/dist/js/demo.js')}}"></script>
+
+@stack('script')
 </body>
 </html>

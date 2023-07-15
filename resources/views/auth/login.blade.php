@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -53,64 +54,76 @@
                                                                     <p>Silahkan masuk ke akun agen Anda.</p>
                                                             </div>
                                 <!-- Login Form -->
-                                                        <form class="login-form" method="post">
-                                <div
-                                    id="signin-form"
-                                    class="login-form animated preFadeInLeft fadeInLeft"
-                                >
-                                    <!-- Input -->
-                                    <div class="field pb-10">
-                                        <div class="control has-icons-right">
-                                            <input
-                                            class="input is-medium has-shadow" type="text" name="Email" placeholder="Email"/>
-                                            <span class="icon is-medium is-right">
-                                            <i data-feather="mail"></i></span>
-                                            </span>
-                                        </div>  
-                                    </div>
-                                    <!-- Input -->
-                                    <div class="field pb-10">
-                                        <div class="control has-icons-right">
-                                            <input
-                                            class="input is-medium has-shadow" type="password" name="Password" placeholder="Password"/>
-                                            <span class="icon is-medium is-right">
-                                            <i data-feather="lock"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <!-- Input -->
-                                    <div class="field pb-10">
-                                        <div class="control has-icons-right">
-                                            <input
-                                            class="input is-medium has-shadow"
-                                            type="text"
-                                            id="pengaman"
-                                            name="pengaman"
-                                            placeholder="27 + 18 = ?"
-                                            />
-                                            <span class="icon is-medium is-right">
-                                            <i data-feather="lock"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <!-- Submit -->
-                                    <p class="control login">
-                                    <button
-                                        class="
-                                        button button-cta
-                                        primary-btn
-                                        btn-align-lg
-                                        is-bold is-fullwidth
-                                        rounded
-                                        raised
-                                        no-lh
-                                        "
+                                <x-auth-card>
+                                    <x-slot name="logo">
+                                        <a href="/">
+                                            <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                                        </a>
+                                    </x-slot>
+                            
+                                    <!-- Validation Errors -->
+                                    <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+                                    <form method="POST" action="{{ route('login') }}">
+                                        @csrf
+                                    <div
+                                        id="signin-form"
+                                        class="login-form animated preFadeInLeft fadeInLeft"
                                     >
-                                        Log in
-                                    </button>
-                                    </p>
-                                </div>
-                                </form>
+                                        <!-- Input -->
+                                        <div class="field pb-10">
+                                            <div class="control has-icons-right" for="email" :value="__('Email')">
+                                                <input
+                                                class="input is-medium has-shadow" id="email" type="email" name="email" placeholder="Email" :value="old('email')" required autofocus/>
+                                                <span class="icon is-medium is-right">
+                                                <i data-feather="mail"></i></span>
+                                                </span>
+                                            </div>  
+                                        </div>
+                                        <!-- Input -->
+                                        <div class="field pb-10">
+                                            <div class="control has-icons-right" for="password" :value="__('Password')">
+                                                <input
+                                                class="input is-medium has-shadow" id="password" type="password" name="password" placeholder="Password" required autocomplete="current-password"/>
+                                                <span class="icon is-medium is-right">
+                                                <i data-feather="lock"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- Input -->
+                                        <div class="field pb-10">
+                                            <div class="control has-icons-right">
+                                                <input
+                                                class="input is-medium has-shadow"
+                                                type="text"
+                                                id="pengaman"
+                                                name="pengaman"
+                                                placeholder="27 + 18 = ?"
+                                                />
+                                                <span class="icon is-medium is-right">
+                                                <i data-feather="lock"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- Submit -->
+                                        <p class="control login">
+                                        <button
+                                            class="
+                                            button button-cta
+                                            primary-btn
+                                            btn-align-lg
+                                            is-bold is-fullwidth
+                                            rounded
+                                            raised
+                                            no-lh
+                                            "
+                                        >
+                                        {{ __('Log in') }}
+                                        </button>
+                                        </p>
+                                    </div>
+                                    </form>
+                                </x-auth-card>
                                                         <!-- <p class="has-text-centered">Lupa Password ? <a href="https://penerimaan.uai.ac.id/login/lupa_password">Klik disini.</a></p>    -->
                             </div>
                         <div class="column"></div>
@@ -144,7 +157,7 @@
                                             <i data-feather="lock"></i>
                                         </div>
                                         <div class="argument-text light-text">
-                                            Lupa password silahkan, <a href=/RegistrasiAgen/reg style="color: black;">Klik disini</a>
+                                            Lupa password silahkan, <a href=/forgot-password style="color: black;">Klik disini</a>
                                         </div>
                                     </div>
                                     <!-- Icon block -->
@@ -153,7 +166,7 @@
                                             <i data-feather="user-plus"></i>
                                         </div>
                                         <div class="argument-text light-text">
-                                            Belum punya akun agen silahkan pilih pendaftaran, <a href=/RegistrasiAgen/reg style="color: black;">Klik disini</a>
+                                            Belum punya akun agen silahkan pilih pendaftaran, <a href=/register style="color: black;">Klik disini</a>
                                         </div>
                                     </div>
                                     <!-- Icon block -->
@@ -169,3 +182,4 @@
         </div>
     </body>
 </html>
+

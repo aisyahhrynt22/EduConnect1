@@ -154,7 +154,7 @@
                                     <i data-feather="lock"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Lupa password silahkan, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
+                                    Lupa password silahkan, <a href="/" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
                             <!-- Icon block -->
@@ -163,7 +163,7 @@
                                 <i data-feather="user-plus"></i>
                                 </div>
                                 <div class="argument-text light-text">
-                                    Belum punya akun silahkan pilih pendaftaran, <a href="/RegistrasiMhs" style="color: black;">Klik disini</a>
+                                    Belum punya akun silahkan pilih pendaftaran, <a href="/calon_mhs/register" style="color: black;">Klik disini</a>
                                 </div>
                             </div>
                               <!-- Icon block -->
