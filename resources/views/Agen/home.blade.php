@@ -11,7 +11,7 @@ Gunakan link di bawah ini untuk promosi lebih banyak
 @section('jumlah_pengguna_kode')
 <div class="info-box-content">
     <span class="info-box-text">Jumlah Pengguna Kode</span>
-    <span class="info-box-number">1,410</span>
+    <span class="info-box-number">(Coming Soon)</span>
 </div>
 @endsection
 
@@ -25,7 +25,7 @@ Gunakan link di bawah ini untuk promosi lebih banyak
 @section('reward')
 <div class="info-box-content">
     <span class="info-box-text">Reward</span>
-    <span class="info-box-number">13,641</span>
+    <span class="info-box-number">(Coming Soon)</span>
   </div>
 @endsection
 
