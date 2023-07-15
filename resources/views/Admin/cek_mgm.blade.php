@@ -6,7 +6,7 @@
 @endsection
 
 @section('nama1')
-Cek Penggunaan Kode Agen
+Cek Penggunaan Kode Agen (Yang sudah daftar)
 @endsection
 
 @push('script')

@@ -47,7 +47,6 @@ Cek Penggunaan Kode Agen
       </td>
       <td>
         <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
         <a href="#" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
@@ -61,7 +60,6 @@ Cek Penggunaan Kode Agen
       </td>
       <td>
         <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
         <a href="#" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
@@ -75,7 +73,6 @@ Cek Penggunaan Kode Agen
       </td>
       <td>
         <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
         <a href="#" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
@@ -89,7 +86,6 @@ Cek Penggunaan Kode Agen
       </td>
       <td>
         <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
         <a href="#" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
@@ -103,7 +99,6 @@ Cek Penggunaan Kode Agen
       </td>
       <td>
         <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
         <a href="#" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
