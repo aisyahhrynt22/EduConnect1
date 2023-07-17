@@ -19,12 +19,15 @@ Route::get('/', function () {
     return view('halaman_utama.home');
 });
 
-Route::get('/bantuan', function () {
-    return view('bantuan');
+//Ini halaman Bantuan
+Route::get('/agen/bantuan', function () {
+    return view('Agen.bantuan');
 });
 
-Route::get('/tunggu', function () {
-    return view('tunggureg');
+
+//Ini halaman Tunggu
+Route::get('/agen/tunggu', function () {
+    return view('Agen.tunggureg');
 });
 
 
