@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// ------------------Halaman utama------------------
+// ------------------------------------Halaman utama------------------------------------
+
 Route::get('/', function () {
     return view('halaman_utama.home');
 });
@@ -44,7 +45,16 @@ Route::get('/adminedu/informasi_agen', function () {
     return view('admin.informasi_agen');
 });
 
-// ------------------Agen------------------
+Route::get('/adminedu/informasi_agen/detail', function () {
+    return view('admin/informasi_agen.detail');
+});
+
+Route::get('/adminedu/informasi_agen/status', function () {
+    return view('admin/informasi_agen.status');
+});
+
+// ------------------------------------Agen------------------------------------
+
 Route::get('/agen/login', function () {
     return view('agen.login');
 });
@@ -65,11 +75,21 @@ Route::get('/agen/informasi', function () {
     return view('agen.informasi');
 });
 
+// //Agen
+// Route::get('/dashboard', function () {
+//     return view('Agen.dashboard');
+// })->middleware(['auth'])->name('dashboard');
+
+// Route::get('/bantuan', function () {
+//     return view('bantuan');
+// });
+
 Route::get('/agen/bantuan', function () {
     return view('agen.bantuan');
 });
 
-// ------------------Calon_Mhs------------------
+// ------------------------------------Calon_Mhs------------------------------------
+
 Route::get('/calon_mhs/login', function () {
     return view('calon_mhs.login');
 });

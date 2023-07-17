@@ -37,76 +37,82 @@ Cek Penggunaan Kode Agen
     </thead>
 
     <tbody>
+
     <tr>
       <td>Ainut12</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cewe.png')}}" width="150"></td>
       <td>
-        <span class="btn btn-block btn-success btn-xs">Sudah Disetujui</span>
+        {{-- <span class="btn btn-block btn-success btn-xs">Sudah Disetujui</span> --}}
+        <a href="/adminedu/informasi_agen/status" class="btn btn-block btn-success btn-xs">Disetujui</a>
       </td>
       <td>
-        <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-        <a href="#" class="btn btn-danger btn-sm">Delete</a>
+        <a href="/adminedu/informasi_agen/detail" class="btn btn-info btn-sm">Detail</a>
+        <a href="/adminedu/informasi_agen" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
+
     <tr>
       <td>Aisyah78</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cewe.png')}}" width="150"></td>
       <td>
-        <span class="btn btn-block btn-warning btn-xs">Menunggu Persetujuan</span>
+        {{-- <span class="btn btn-block btn-warning btn-xs">Menunggu Persetujuan</span> --}}
+        <a href="/adminedu/informasi_agen/status" class="btn btn-block btn-warning btn-xs">Menunggu Persetujuan</a>
       </td>
       <td>
-        <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-        <a href="#" class="btn btn-danger btn-sm">Delete</a>
+        <a href="/adminedu/informasi_agen/detail" class="btn btn-info btn-sm">Detail</a>
+        <a href="/adminedu/informasi_agen" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
+
     <tr>
       <td>Haikalaja</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
       <td>
-        <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span>
+        {{-- <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span> --}}
+        <a href="/adminedu/informasi_agen/status" class="btn btn-block btn-danger btn-xs">Tidak Disetujui</a>
       </td>
       <td>
-        <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-        <a href="#" class="btn btn-danger btn-sm">Delete</a>
+        <a href="/adminedu/informasi_agen/detail" class="btn btn-info btn-sm">Detail</a>
+        <a href="/adminedu/informasi_agen" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
+
     <tr>
       <td>Idam77</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
       <td>
-        <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span>
+        {{-- <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span> --}}
+        <a href="/adminedu/informasi_agen/status" class="btn btn-block btn-danger btn-xs">Tidak Disetujui</a>
       </td>
       <td>
-        <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-        <a href="#" class="btn btn-danger btn-sm">Delete</a>
+        <a href="/adminedu/informasi_agen/detail" class="btn btn-info btn-sm">Detail</a>
+        <a href="/adminedu/informasi_agen" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
+
     <tr>
       <td>Azzam12</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
       <td>
-        <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span>
+        {{-- <span class="btn btn-block btn-danger btn-xs">Tidak Disetujui</span> --}}
+        <a href="/adminedu/informasi_agen/status" class="btn btn-block btn-danger btn-xs">Tidak Disetujui</a>
       </td>
       <td>
-        <a href="#" class="btn btn-info btn-sm">Detail</a>
-        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-        <a href="#" class="btn btn-danger btn-sm">Delete</a>
+        <a href="/adminedu/informasi_agen/detail" class="btn btn-info btn-sm">Detail</a>
+        <a href="/adminedu/informasi_agen" class="btn btn-danger btn-sm">Delete</a>
       </td>
     </tr>
+
     </tbody>
 
     <tfoot>

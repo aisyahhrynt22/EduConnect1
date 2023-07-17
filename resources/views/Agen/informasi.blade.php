@@ -5,7 +5,7 @@
 @endsection
 
 @section('nama1')
-Data Member yang menggunakan kode
+Data mahasiswa yang sudah daftar ulang menggunakan kode
 @endsection
 
 @push('script')
