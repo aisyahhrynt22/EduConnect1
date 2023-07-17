@@ -18,10 +18,14 @@ Route::get('/', function () {
     return view('halaman_utama.home');
 });
 
-
 Route::get('/bantuan', function () {
     return view('bantuan');
 });
+
+Route::get('/tunggu', function () {
+    return view('tunggureg');
+});
+
 
 //Agen
 Route::get('/dashboard', function () {

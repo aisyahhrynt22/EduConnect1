@@ -32,7 +32,7 @@ Hubungi No di bawah ini
 </head>
 
 <body>
-    <h1>https://wa.me/6281388518191</h1>
+<a href="https://wa.me/6281388518191" >Silahkan klik link wa berikut</a>
 </body>
 </html>
 
