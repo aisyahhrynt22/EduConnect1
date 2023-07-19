@@ -147,13 +147,16 @@
                         </div>
                     </div>
                   </div>
-                  </div>
-                    <!-- Tambahkan input untuk data profil lainnya jika diperlukan -->
-                    <button type="submit" class="btn btn-primary">Edit Profil</button>
-                    </form>
-                    </div>
 
-              </form>
+                  <div class="form-group row">
+                    <div class="col-sm-10">
+                        <div class="col-sm-6">
+                           <!-- Tambahkan input untuk data profil lainnya jika diperlukan -->
+                          <a href="/agen/profil/edit_profile" class="btn btn-primary">Edit Profil</a>
+                        </div>
+                    </div>
+                  </div>
+
             </div>
             <!-- /.tab-pane -->
           </div>

@@ -74,6 +74,10 @@ Route::get('/agen/profil', function () {
     return view('agen.profil');
 });
 
+Route::get('/agen/profil/edit_profile', function () {
+    return view('agen.edit_profile');
+});
+
 Route::get('/agen/informasi', function () {
     return view('agen.informasi');
 });
