@@ -94,6 +94,16 @@
                 </div>
 
                 <div class="form-group row">
+                  <label for="inputName2" class="col-sm-2 col-form-label">Kategori</label>
+                  <div class="col-sm-10">
+                    <p class="text-muted">
+                        Mahasiswa
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="form-group row">
                   <label for="inputName2" class="col-sm-2 col-form-label">No.Rek</label>
                   <div class="col-sm-10">
                     <p class="text-muted">
@@ -137,6 +147,11 @@
                         </div>
                     </div>
                   </div>
+                  </div>
+                    <!-- Tambahkan input untuk data profil lainnya jika diperlukan -->
+                    <button type="submit" class="btn btn-primary">Edit Profil</button>
+                    </form>
+                    </div>
 
               </form>
             </div>
