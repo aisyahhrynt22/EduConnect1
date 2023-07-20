@@ -26,15 +26,6 @@ Biodata Agen A
           </div>
 
           <div class="form-group row">
-            <label for="inputName" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <p class="text-muted">
-                123123123
-              </p>
-            </div>
-          </div>
-
-          <div class="form-group row">
             <label for="inputName" class="col-sm-2 col-form-label">Alamat</label>
             <div class="col-sm-10">
               <p class="text-muted">
@@ -114,4 +105,13 @@ Biodata Agen A
                   </div>
               </div>
             </div>
+
+            <div class="form-group row">
+              <div class="col-sm-10">
+                  <div class="col-sm-6">
+                    <a href="/adminedu/informasi_agen" class="btn btn-primary">Kembali</a>
+                  </div>
+              </div>
+            </div>
+
 @endsection

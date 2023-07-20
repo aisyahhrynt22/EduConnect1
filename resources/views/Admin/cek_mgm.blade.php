@@ -28,8 +28,6 @@ Cek Penggunaan Kode Agen (Yang sudah daftar)
     <thead>
     <tr>
       <th>Nama Calon Mahasiswa</th>
-      <th>Pilihan Prodi</th>
-      <th>Jalur Masuk</th>
       <th>Kode MGM</th>
       <th>Nama Agen</th>
       <th>Tanggal Menggunakan Kode</th>
@@ -39,40 +37,30 @@ Cek Penggunaan Kode Agen (Yang sudah daftar)
     <tbody>
     <tr>
       <td>Nuti</td>
-      <td>Informatika</td>
-      <td>Reguler</td>
       <td>A123</td>
       <td>Agen A</td>
       <td> 7/11/2023</td>
     </tr>
     <tr>
       <td>Aisyah</td>
-      <td>Informatika</td>
-      <td>Reguler</td>
       <td>A123</td>
       <td>Agen A</td>
       <td>2/1/2023</td>
     </tr>
     <tr>
       <td>Haikal</td>
-      <td>Informatika</td>
-      <td>Reguler</td>
       <td>A123</td>
       <td>Agen A</td>
       <td>2/2/2023</td>
     </tr>
     <tr>
       <td>Idam</td>
-      <td>Informatika</td>
-      <td>Karyawan</td>
       <td>A123</td>
       <td>Agen A</td>
       <td>4/6/2023</td>
     </tr>
     <tr>
       <td>Azzam</td>
-      <td>Informatika</td>
-      <td>Karyawan</td>
       <td>A123</td>
       <td>Agen A</td>
       <td>9/8/2023</td>
@@ -82,8 +70,6 @@ Cek Penggunaan Kode Agen (Yang sudah daftar)
     <tfoot>
     <tr>
         <th>Nama Calon Mahasiswa</th>
-        <th>Pilihan Prodi</th>
-        <th>Jalur Masuk</th>
         <th>Kode MGM</th>
         <th>Nama Agen</th>
         <th>Tanggal Menggunakan Kode</th>
