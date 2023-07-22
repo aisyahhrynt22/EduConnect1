@@ -160,7 +160,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
                                                 <label class="form-check-label" for="invalidCheck3">
-                                                    Agree to <a href="https://drive.google.com/file/d/1ZbIMnIcrpD-LmTm-yE9E3utrbFbGPyab/view?usp=sharing" style="color: rgb(255, 0, 0);">terms and conditions</a>
+                                                    Agree to <a href="https://drive.google.com/file/d/1msXCRdxfnP4Ljx47XBYyJPSFFoCD-8Vs/view?usp=sharing" style="color: rgb(255, 0, 0);">terms and conditions</a>
                                                 </label>
                                                 <div class="invalid-feedback">
                                                     You must agree before submitting.
