@@ -39,7 +39,7 @@ Cek Penggunaan Kode Agen
     <tbody>
 
     <tr>
-      <td>Ainut12</td>
+      <td>AgenA</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cewe.png')}}" width="150"></td>
@@ -54,8 +54,8 @@ Cek Penggunaan Kode Agen
     </tr>
 
     <tr>
-      <td>Aisyah78</td>
-      <td>Mahasiswa</td>
+      <td>AgenB</td>
+      <td>Dosen</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cewe.png')}}" width="150"></td>
       <td>
@@ -69,7 +69,7 @@ Cek Penggunaan Kode Agen
     </tr>
 
     <tr>
-      <td>Haikalaja</td>
+      <td>AgenC</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
@@ -84,7 +84,7 @@ Cek Penggunaan Kode Agen
     </tr>
 
     <tr>
-      <td>Idam77</td>
+      <td>AgenD</td>
       <td>Mahasiswa</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
@@ -99,8 +99,8 @@ Cek Penggunaan Kode Agen
     </tr>
 
     <tr>
-      <td>Azzam12</td>
-      <td>Mahasiswa</td>
+      <td>AgenE</td>
+      <td>Dosen</td>
       <td>123123123123</td>
       <td><img src="{{asset('admin/dist/img/ktp_cowo.jpg')}}" width="150"></td>
       <td>

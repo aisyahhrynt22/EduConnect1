@@ -28,8 +28,8 @@ Tabel Database Agen
     <thead>
     <tr>
       <th>Nama Agen</th>
+      <th>Role</th>
       <th>Kode MGM</th>
-      {{-- <th>Jumlah Pengguna Kode</th> --}}
       <th>Sudah Daftar</th>
       {{-- <th>Reward</th> --}}
       {{-- <th>Jumlah Pengunjung</th> --}}
@@ -39,40 +39,40 @@ Tabel Database Agen
     <tbody>
     <tr>
       <td>Agen A</td>
+      <td>Mahasiswa</td>
       <td>A123</td>
-      {{-- <td>3241</td> --}}
       <td>54</td>
       {{-- <td>50000</td>
       <td> 34234142</td> --}}
     </tr>
     <tr>
       <td>Agen B</td>
+      <td>Dosen</td>
       <td>B123</td>
-      {{-- <td>12422</td> --}}
       <td>44</td>
       {{-- <td>50000</td>
       <td>1234143234</td> --}}
     </tr>
     <tr>
       <td>Agen C</td>
+      <td>Mahasiswa</td>
       <td>C123</td>
-      {{-- <td>21442</td> --}}
       <td>53</td>
       {{-- <td>100000</td>
       <td>12342341</td> --}}
     </tr>
     <tr>
       <td>Agen D</td>
+      <td>Mahasiswa</td>
       <td>D123</td>
-      {{-- <td>12411</td> --}}
       <td>41</td>
       {{-- <td>50000</td>
       <td>124413424</td> --}}
     </tr>
     <tr>
       <td>Agen E</td>
+      <td>Dosen</td>
       <td>E123</td>
-      {{-- <td>4422</td> --}}
       <td>31</td>
       {{-- <td>150000</td>
       <td>43241234</td> --}}
@@ -82,8 +82,8 @@ Tabel Database Agen
     <tfoot>
     <tr>
         <th>Nama Agen</th>
+        <th>Role</th>
         <th>Kode MGM</th>
-        {{-- <th>Jumlah Pengguna Kode</th> --}}
         <th>Sudah Daftar</th>
         {{-- <th>Reward</th> --}}
         {{-- <th>Jumlah Pengunjung</th> --}}

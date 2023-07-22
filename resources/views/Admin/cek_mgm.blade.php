@@ -30,7 +30,7 @@ Cek Penggunaan Kode Agen (Yang sudah daftar)
       <th>Nama Calon Mahasiswa</th>
       <th>Kode MGM</th>
       <th>Nama Agen</th>
-      <th>Tanggal Menggunakan Kode</th>
+      <th>Tanggal Pakai Kode</th>
     </tr>
     </thead>
 
@@ -72,7 +72,7 @@ Cek Penggunaan Kode Agen (Yang sudah daftar)
         <th>Nama Calon Mahasiswa</th>
         <th>Kode MGM</th>
         <th>Nama Agen</th>
-        <th>Tanggal Menggunakan Kode</th>
+        <th>Tanggal Pakai Kode</th>
     </tr>
     </tfoot>
   </table>

@@ -27,8 +27,6 @@ Data mahasiswa yang sudah daftar ulang menggunakan kode
     <thead>
     <tr>
       <th>Nama Calon Mahasiswa</th>
-      <th>Pilihan Prodi</th>
-      <th>Jalur Masuk</th>
       <th>Tanggal Menggunakan Kode</th>
     </tr>
     </thead>
@@ -36,36 +34,22 @@ Data mahasiswa yang sudah daftar ulang menggunakan kode
     <tbody>
     <tr>
       <td>Nuti</td>
-      <td>Informatika
-      </td>
-      <td>Reguler</td>
       <td> 7/11/2023</td>
     </tr>
     <tr>
       <td>Aisyah</td>
-      <td>Informatika
-      </td>
-      <td>Reguler</td>
       <td>2/1/2023</td>
     </tr>
     <tr>
       <td>Haikal</td>
-      <td>Informatika
-      </td>
-      <td>Reguler</td>
       <td>2/2/2023</td>
     </tr>
     <tr>
       <td>Idam</td>
-      <td>Informatika
-      </td>
-      <td>Karyawan</td>
       <td>4/6/2023</td>
     </tr>
     <tr>
       <td>Azzam</td>
-      <td>Informatika</td>
-      <td>Karyawan</td>
       <td>9/8/2023</td>
     </tr>
     </tbody>
@@ -73,8 +57,6 @@ Data mahasiswa yang sudah daftar ulang menggunakan kode
     <tfoot>
     <tr>
       <th>Nama Calon Mahasiswa</th>
-      <th>Pilihan Prodi</th>
-      <th>Jalur Masuk</th>
       <th>Tanggal Menggunakan Kode</th>
     </tr>
     </tfoot>
