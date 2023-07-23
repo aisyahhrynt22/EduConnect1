@@ -32,7 +32,7 @@ Gunakan link di bawah ini untuk promosi lebih banyak
 @section('jumlah_pengunjung')
 <div class="info-box-content">
     <span class="info-box-text">Jumlah Pengunjung</span>
-    <span class="info-box-number">93,139</span>
+    <span class="info-box-number">(Coming Soon)</span>
   </div>
 @endsection
 
