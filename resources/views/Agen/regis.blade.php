@@ -158,13 +158,25 @@
                                             <div class="col">
                                                 <div class="">
                                                     <input type="checkbox" aria-label="Checkbox for following text input">
-                                                    <span class="pl-2">Dosen, Karyawan, Umum </span>
+                                                    <span class="pl-2">Dosen</span>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="">
                                                     <input type="checkbox" aria-label="Checkbox for following text input">
                                                     <span class="pl-2">Mahasiswa/i </span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="">
+                                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                                    <span class="pl-2">Karyawan </span>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="">
+                                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                                    <span class="pl-2">Umum </span>
                                                 </div>
                                             </div>
                                         </div>
