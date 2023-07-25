@@ -64,7 +64,7 @@
         <!-- Form section -->
 
         <div class="column is-7 overflow-auto">
-            <div style="overflow: scroll;height:749px" class="example">
+            <div style="overflow: scroll;height:714px" class="example">
                 <div class="hero">
                     <div class="hero-heading">
                         <div class="auth-logo mt-30 has-text-centered">
